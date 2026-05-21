@@ -267,12 +267,12 @@ button {
 
 /*CENTRAL*/
 #central {
-  width: 95%;
+  width: 70%;
   min-height: 500px;
   float: right;
   border-left: 1px solid #ccc;
   box-shadow: -5px -1px 5px #ddd;
-  padding: 40px;
+  padding: 20px;
 }
 
 #central h1 {
