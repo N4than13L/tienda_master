@@ -10,7 +10,8 @@
 
 <!-- PIE DE PÁGINA -->
 <footer id="footer">
-	<p>Desarrollado por José Nathaniel Bonilla &copy; <?= date('Y') ?></p>
+	<p>Desarrollado por &copy; <?= date('Y') ?></p> <a href="https://jose-nathaniel-bonilla-portafolio.vercel.app/" target="_blank">José Nathaniel Bonilla</a>
+	Todos los derechos reservados
 </footer>
 </body>
 
