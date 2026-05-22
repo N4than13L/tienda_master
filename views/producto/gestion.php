@@ -1,7 +1,7 @@
 <h1>Gestión de productos</h1>
 
-<a href="<?= base_url ?>producto/crear" class="button button-small">
-	Crear producto
+<a href="<?= base_url ?>producto/crear" class="btn btn-success mb-3 text-white">
+	<i class="fa-solid fa-plus"></i>
 </a>
 
 <?php if (isset($_SESSION['producto']) && $_SESSION['producto'] == 'complete'): ?>
@@ -20,11 +20,11 @@
 
 <table>
 	<tr>
-		<th>ID</th>
-		<th>NOMBRE</th>
-		<th>PRECIO</th>
-		<th>STOCK</th>
-		<th>ACCIONES</th>
+		<th>Identificador</th>
+		<th>Nombre</th>
+		<th>Precio</th>
+		<th>Stock</th>
+		<th>Acciones</th>
 	</tr>
 	<?php if (isset($productos) && $productos): ?>
 		<?php while ($pro = $productos->fetch_object()): ?>
@@ -34,8 +34,8 @@
 				<td><?= $pro->precio; ?></td>
 				<td><?= $pro->stock; ?></td>
 				<td>
-					<a href="<?= base_url ?>producto/editar&id=<?= $pro->id ?>" class="button button-gestion">Editar</a>
-					<a href="<?= base_url ?>producto/eliminar&id=<?= $pro->id ?>" class="button button-gestion button-red">Eliminar</a>
+					<a href="<?= base_url ?>producto/editar&id=<?= $pro->id ?>" class="button button-gestion"><i class="fa-regular fa-pen-to-square"></i></a>
+					<a href="<?= base_url ?>producto/eliminar&id=<?= $pro->id ?>" class="button button-gestion button-red"><i class="fa-solid fa-trash"></i></a>
 				</td>
 			</tr>
 		<?php endwhile; ?>

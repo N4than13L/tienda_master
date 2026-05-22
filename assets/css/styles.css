@@ -3,11 +3,11 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: sans-serif, Helvetica, Arial;
+  /* font-family: sans-serif, Helvetica, Arial; */
 }
 
 body {
-  background: url(../img/bg.png);
+  background: #b7d4fa;
 }
 
 a {
@@ -52,13 +52,6 @@ td {
   box-shadow: 0px 0px 10px gray;
   background: white;
 }
-
-/*HEADER*/
-
-/* #header { */
-/* height: 145px; */
-/* background: #f0f0f0; */
-/* } */
 
 #logo {
   padding: 20px;
@@ -108,11 +101,11 @@ td {
   margin-left: 25px;
 }
 
-#menu ul li {
+/* #menu ul li {
   line-height: 55px;
   float: left;
   border-right: 1px solid #363636;
-}
+} */
 
 #menu a {
   display: block;
@@ -173,12 +166,12 @@ td {
   margin-bottom: 20px;
 }
 
-#lateral ul li {
+/* #lateral ul li {
   list-style: square;
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
-}
+} */
 
 /*FORMS*/
 .form_container {
@@ -370,8 +363,9 @@ button {
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
-  background: #222222;
+  background: #444444;
   border-top: 4px solid #01b1ea;
+  height: 5rem;
 }
 
 /*CARRITO*/

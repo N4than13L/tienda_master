@@ -1,13 +1,13 @@
 <h1>Gestionar categorias</h1>
 
-<a href="<?= base_url ?>categoria/crear" class="button button-small">
-	Crear categoria
+<a href="<?= base_url ?>categoria/crear" class="btn btn-success mb-3 text-white">
+	<i class="fa-solid fa-plus"></i>
 </a>
 
 <table>
 	<tr>
-		<th>ID</th>
-		<th>NOMBRE</th>
+		<th>Identificador</th>
+		<th>Nombre</th>
 	</tr>
 	<?php $categorias = $categorias ?? false; ?>
 	<?php if ($categorias): ?>

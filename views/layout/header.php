@@ -16,7 +16,7 @@
 	<div>
 		<!-- CABECERA + NAVBAR -->
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white text-white">
 			<div class="container-fluid">
 				<a class="navbar-brand d-flex align-items-center" href="<?= base_url ?>">
 					<img src="<?= base_url ?>assets/img/camiseta.png" alt="Camiseta Logo" width="40" height="40" class="d-inline-block align-text-top me-2" />
@@ -43,4 +43,4 @@
 		</nav>
 
 
-		<div id="content" class="d-flex m-5 p-5">
+		<div id="content" class="d-flex m-5 p-5 bg-white rounded-5 shadow">

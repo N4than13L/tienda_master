@@ -114,4 +114,4 @@
 </aside>
 
 <!-- CONTENIDO CENTRAL -->
-<div class="m-4">
+<div class="card m-4 p-4 d-flex flex-column">
