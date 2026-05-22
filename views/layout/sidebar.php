@@ -67,7 +67,7 @@
 </div>
 
 <!-- Sidebar visible en pantallas grandes -->
-<aside id="lateral" class="d-none d-lg-block">
+<aside id="lateral" class="d-none d-lg-block rounded-4">
 
 	<!-- CARRO DE LA COMPRA -->
 	<div id="carrito" class="block_aside">

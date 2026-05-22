@@ -73,6 +73,22 @@ class usuarioController
 		header("Location:" . base_url);
 	}
 
+	// funcion para mostrar los datos del usuario
+	public function misDatos()
+	{
+		// Comprobar si el usuario está identificado
+		if (isset($_SESSION['identity'])) {
+			$identity = $_SESSION['identity'];
+			require_once 'views/usuario/misDatos.php';
+		} else {
+			header("Location:" . base_url);
+		}
+	}
+
+	// funcion para actualizar los datos del usuario
+	public function actualizar() {}
+
+	// funcion para cerrar la sesión del usuario
 	public function logout()
 	{
 		if (isset($_SESSION['identity'])) {
